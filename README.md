@@ -1,0 +1,2 @@
+# jugg
+A blog template
