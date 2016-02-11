@@ -1,0 +1,7 @@
+[[items]]
+label = "Home"
+href = "/"
+
+[[items]]
+label = "Github"
+href = "https://github.com/jugg-yy"

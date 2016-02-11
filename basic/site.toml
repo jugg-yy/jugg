@@ -1,0 +1,11 @@
+[main]
+title = "臭皮匠" # 博客主标题
+subtitle = "by jugg" # 博客副标题
+
+[copyright]
+owner = "臭皮匠"
+beginYear = 2016
+endYear = 2017
+
+[theme]
+name = "default"
