@@ -1,18 +1,18 @@
 <% include inp/header %>
+
 <div id="main">
-	<% include inp/banner %>
 
-	<section id="wrapper">
+  <% include inp/banner %>
 
-		<div id="article-list">
-			<% articles.items.forEach(function (item) { %>
-			<div class="article-item">
-				<a class="article-title" href="<%= item.href %>"><%= item.title %></a>
-			</div>
-			<% }) %>
-		</div>
-
-	</section>
-	
+  <section id="wrapper">
+    <div id="article-list">
+      <% articles.items.forEach(function (item) { %>
+        <div class="article-item">
+          <a class="article-title" href="<%= item.href %>"><%= item.title %></a>
+        </div>
+      <% }) %>
+    </div>
+  </section>	
 </div>
+
 <% include inp/footer %>
