@@ -2,4 +2,7 @@
   <% nav.items.forEach( function ( item ){ %>
   <a class="tran-opacity" href="<%= item.href %>"><%= item.label %></a>
   <% } ) %>
+  <% pages.items.forEach( function ( item ){ %>
+  <a class="tran-opacity" href="/pages/<%= item.id %>.html"><%= item.title %></a>
+  <% } ) %>
 </nav>

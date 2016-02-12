@@ -1,7 +1,7 @@
 [[items]]
-label = "Home"
+label = "首页"
 href = "/"
 
 [[items]]
 label = "Github"
-href = "https://github.com/jugg-yy"
+href = "https://github.com/jugg-yy/jugg"
