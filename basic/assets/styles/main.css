@@ -36,7 +36,7 @@ pre.prettyprint {
 /*
   文章页
 */
-article{
+article p{
   line-height: 26px;
   color: #4C4C4C;
 }
@@ -56,6 +56,10 @@ article{
     text-overflow: ellipsis;
     overflow: hidden;
     color: #4C4C4C;
+}
+.article-author{
+  color: #969696;
+  font-size: 12px;
 }
 
 /*
