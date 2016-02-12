@@ -40,8 +40,8 @@ exports.exec = function( options ){
   _copy( name );
   compiler.compile( name );
   if( mode == '-p' ){
-  	_tasks( name );
-  	runSequence( 'build_publish' );
+    _tasks( name );
+    runSequence( 'build_publish' );
   }
 
 }
