@@ -3,20 +3,64 @@ body{
   padding:0;
 }
 ul,li{
-  list-style: none;
   margin:0;
   padding:0;
 }
+
+
+
 a{
   text-decoration: none;
   color:#000;
 }
+
+/*
+  代码高亮覆盖
+*/
+li.L0, li.L1, li.L2, li.L3,
+li.L5, li.L6, li.L7, li.L8
+{ 
+  list-style-type: decimal !important;
+  padding-left:12px !important;
+}
+li.L1, li.L3, li.L5, li.L7, li.L9 {
+  background: #F7F7F7 !important;
+}
+
+pre.prettyprint {
+  border: 1px solid #F3F3F3 !important;
+  line-height: 30px !important;
+}
+
+
+/*
+  文章页
+*/
+article{
+  line-height: 26px;
+  color: #4C4C4C;
+}
+
+/*
+  首页文章列表
+*/
 .article-title{
-  display: block;
   font-size: 28px;
   line-height: 50px;
-  margin: 20px auto;
+  margin: 20px auto 0px;
+  color:#000;
 }
+.article-subtitle{
+	line-height: 26px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #4C4C4C;
+}
+
+/*
+  首页头图部分
+*/
 #banner{
   position: relative;
   width:100%;
@@ -92,7 +136,8 @@ a{
 
 }
 #article-list .article-item{
-  background:#fff;
+  background: #fff;
+  margin-bottom: 50px;
 }
 
 

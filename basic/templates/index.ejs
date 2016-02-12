@@ -8,9 +8,14 @@
     <div id="article-list">
       <% articles.items.forEach(function (item) { %>
         <div class="article-item">
-          <a class="article-title" href="<%= item.href %>"><%= item.title %></a>
+          <h1 class="article-title">
+            <a href="<%= item.href %>"><%= item.title %></a>
+          </h1>
+          <p class="article-subtitle">
+            <%= item.subtitle %>
+          </p>
         </div>
-      <% }) %>
+      <% } ) %>
     </div>
   </section>	
 </div>
