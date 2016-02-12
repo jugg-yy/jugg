@@ -3,11 +3,11 @@
  * 即整个站点
  */
 
-var _         = require( 'underscore' ),
-  fse         = require( 'fs-extra' ),
-  gulp        = require( 'gulp' ),
-  runSequence = require('run-sequence').use(gulp),
-  compiler    = require( '../../lib/compiler' );
+var _           = require( 'underscore' ),
+    fse         = require( 'fs-extra' ),
+    gulp        = require( 'gulp' ),
+    runSequence = require('run-sequence').use(gulp),
+    compiler    = require( '../../lib/compiler' );
 
 function _help(){
   console.log( 'Usage: jugg create <name of your blog>' );
