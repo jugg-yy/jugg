@@ -2,6 +2,9 @@
 title = "臭皮匠" # 博客主标题
 subtitle = "by jugg" # 博客副标题
 
+[host]
+rootAddress = 'http://localhost:8001/' # 站点访问根路径
+
 [article]
 pageSize = 3 # 每页显示博客文章数目
 
@@ -12,3 +15,7 @@ endYear = 2017
 
 [theme]
 name = "default"
+
+[duoshuo]
+enable = true
+shortName = "jugg"

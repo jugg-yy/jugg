@@ -112,7 +112,8 @@ article p{
   opacity: 0.6;
 }
 
-#nav a:hover{
+#nav a:hover,
+#nav a.active{
   opacity: 1;
 }
 
@@ -188,7 +189,7 @@ article p{
   foot nav
 */
 #foot-nav{
-  margin-top:50px;
+  margin:50px auto;
   line-height: 30px;
   overflow: hidden;
   font-size:14px;
