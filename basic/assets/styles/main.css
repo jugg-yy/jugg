@@ -150,9 +150,11 @@ article p{
 #pagination{
   line-height: 30px;
   overflow: hidden;
+  font-size:14px;
+  text-align: center;
 }
 #pagination a{
-  float: left;
+  display: inline-block;
   height:30px;
   padding:0 10px;
   color:#999;
@@ -162,6 +164,36 @@ article p{
 }
 #pagination a.active{
   color:#000;
+}
+
+/*
+  foot nav
+*/
+#foot-nav{
+  margin-top:50px;
+  line-height: 30px;
+  overflow: hidden;
+  font-size:14px;
+  text-align: center;
+}
+#foot-nav a{
+  height: 30px;
+  color: #999;
+  display: inline-block;
+  margin: 0 10px;
+}
+#foot-nav a:hover{
+  color:#000;
+}
+#foot-nav a.active{
+  color:#000;
+}
+#foot-nav a i{
+  position: relative;
+  top:-1px;
+}
+#foot-nav span{
+  color:#E2E2E2;
 }
 
 /*

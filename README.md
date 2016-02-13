@@ -15,9 +15,9 @@ node bin/jugg.js server myBlog
 
 # TODO
 
-1. 首页文章分页 (DONE)
+1. 首页文章分页 ( DONE )
 
-2. 文章页前后文章
+2. 文章页前后文章 ( DONE )
 
 3. RSS 支持
 
