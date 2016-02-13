@@ -15,15 +15,24 @@ node bin/jugg.js server myBlog
 
 # TODO
 
-<span style="color:#55D055;">[DONE]</span>1. 首页文章分页
+[DONE]1. 首页文章分页
+
 2. 文章页前后文章
+
 3. RSS 支持
+
 4. 文章分类
+
 5. 文章 TAG
+
 6. 插件模块
+
 7. 分享模块（桌面/移动）
+
 8. 自适应布局
+
 9. 支持风格导入
+
 ...
 
 # License
