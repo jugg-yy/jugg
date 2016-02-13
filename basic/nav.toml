@@ -1,10 +1,10 @@
 [[items]]
 label = "首页"
-href = "/"
+href = ""
 
 [[items]]
 label = "分类"
-href = "/category.html"
+href = "category.html"
 
 [[items]]
 label = "Github"

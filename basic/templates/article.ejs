@@ -13,11 +13,11 @@
 
     <div id="foot-nav">
       <% if( article.prev ){ %>
-        <a class="prev" href="/articles/<%= article.prev.id %>.html"><i class="icon-angle-left"></i><%= article.prev.title %></a>
+        <a class="prev" href="<%= site.host.rootAddress %>articles/<%= article.prev.id %>.html"><i class="icon-angle-left"></i><%= article.prev.title %></a>
       <% } %>
       <span>.</span>
       <% if( article.next ){ %>
-        <a class="next" href="/articles/<%= article.next.id %>.html"><%= article.next.title %><i class="icon-angle-right"></i></a>
+        <a class="next" href="<%= site.host.rootAddress %>articles/<%= article.next.id %>.html"><%= article.next.title %><i class="icon-angle-right"></i></a>
       <% } %>
     </div>
 
