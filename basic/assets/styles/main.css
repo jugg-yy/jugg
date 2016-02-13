@@ -51,11 +51,12 @@ article p{
   color:#000;
 }
 .article-subtitle{
+  font-size:16px;
 	line-height: 26px;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    color: #4C4C4C;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #4C4C4C;
 }
 .article-author{
   color: #969696;
@@ -136,10 +137,8 @@ article p{
 /*
   article list
 */
-#article-list{
 
-}
-#article-list .article-item{
+.article-list .article-item{
   background: #fff;
   margin-bottom: 50px;
 }
@@ -165,6 +164,25 @@ article p{
 #pagination a.active{
   color:#000;
 }
+
+/*
+  cate
+*/
+.cate{
+  margin-bottom:50px;
+}
+.cate-title{
+  color:#4C4C4C;
+  font-size:16px;
+  line-height: 26px;
+}
+.cate .article-item{
+  margin:0;
+}
+.cate .article-list{
+  padding-left:12px;
+}
+
 
 /*
   foot nav

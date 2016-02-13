@@ -1,0 +1,33 @@
+<% include inp/header %>
+
+<div id="main">
+
+  <% include inp/banner %>
+
+  <section id="wrapper">
+    <div id="article-list">
+      <% 
+        for( var cate in category ){
+      %>
+        <div class="cate">
+          <div class="cate-title"><%= cate %></div>
+          <div class="article-list">   
+          <% category[ cate ].forEach( function( article ){ %>
+                      
+            <div class="article-item">
+              <h1 class="article-title">
+                <a href="/articles/<%= article.id %>.html"><%= article.title %></a>
+              </h1>
+              <small class="article-author">by <%= article.author %> | <%= article.date %></small>
+            </div>
+        
+          <% } ) %>
+          </div>
+        </div>
+      <% }  %>
+    </div>
+
+  </section>	
+</div>
+
+<% include inp/footer %>

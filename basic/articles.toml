@@ -4,6 +4,7 @@ title = 'Markdown 书写指南'
 subtitle = 'Markdown 是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。'
 author = 'Yy'
 date = '2016-02-12'
+category = 'markdown'
 
 [[items]]
 id = 'hello-world'
@@ -11,6 +12,7 @@ title = 'Hello world'
 subtitle = '...'
 author = 'xx'
 date = '2016-02-09'
+category = '其他'
 
 [[items]]
 id = 'test1'
@@ -18,6 +20,7 @@ title = 'test1'
 subtitle = 'test1'
 author = 'Yy'
 date = '2016-02-09'
+category = '其他'
 
 [[items]]
 id = 'test2'
@@ -25,6 +28,7 @@ title = 'test2'
 subtitle = 'test2'
 author = 'Yy'
 date = '2016-02-09'
+category = '其他'
 
 [[items]]
 id = 'test3'
@@ -32,3 +36,4 @@ title = 'test3'
 subtitle = 'test3'
 author = 'Yy'
 date = '2016-02-09'
+category = '其他'

@@ -3,5 +3,9 @@ label = "首页"
 href = "/"
 
 [[items]]
+label = "分类"
+href = "/category.html"
+
+[[items]]
 label = "Github"
 href = "https://github.com/jugg-yy/jugg"

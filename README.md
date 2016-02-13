@@ -21,7 +21,7 @@ node bin/jugg.js server myBlog
 
 3. RSS 支持
 
-4. 文章分类
+4. 文章分类 ( DONE )
 
 5. 文章 TAG
 
