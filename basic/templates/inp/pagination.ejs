@@ -1,0 +1,12 @@
+<div id="pagination">
+  <% for( var i = 1; i <= articles.pageLength; i++ ){ %>
+    <a 
+      class="<%= i == articles.pageNum ? 'active' : '' %> tran-opacity" 
+      <% if( i != articles.pageNum ){ %>
+        href="<%= i === 1 ? '' : '/p/' + i %>/"
+      <% } %>
+    >
+      <%= i %>
+    </a>
+  <% } %>
+</div>

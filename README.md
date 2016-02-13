@@ -15,7 +15,7 @@ node bin/jugg.js server myBlog
 
 # TODO
 
-1. 首页文章分页
+<span style="color:#55D055;">[DONE]</span>1. 首页文章分页
 2. 文章页前后文章
 3. RSS 支持
 4. 文章分类
@@ -29,7 +29,7 @@ node bin/jugg.js server myBlog
 # License
 [The MIT License (MIT)](http://opensource.org/licenses/MIT)
 
-Copyright (c) 2013 Yangyuan
+Copyright (c) 2016 Yangyuan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

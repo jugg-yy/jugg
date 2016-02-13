@@ -6,18 +6,25 @@
 
   <section id="wrapper">
     <div id="article-list">
-      <% articles.items.forEach(function (item) { %>
+      <% 
+      for( var i = ( articles.pageNum - 1 ) * articles.pageSize; i < articles.pageNum * articles.pageSize; i++ ){ 
+        var item = articles.items[ i ];
+        if( ! item ) break;
+      %>
         <div class="article-item">
           <h1 class="article-title">
-            <a href="<%= item.href %>"><%= item.title %></a>
+            <a href="/articles/<%= item.id %>.html"><%= item.title %></a>
           </h1>
           <small class="article-author">by <%= item.author %> | <%= item.date %></small>
           <p class="article-subtitle">
             <%= item.subtitle %>
           </p>
         </div>
-      <% } ) %>
+      <% } %>
     </div>
+
+    <% include inp/pagination %>
+
   </section>	
 </div>
 

@@ -144,6 +144,25 @@ article p{
   margin-bottom: 50px;
 }
 
+/*
+  pagination
+*/
+#pagination{
+  line-height: 30px;
+  overflow: hidden;
+}
+#pagination a{
+  float: left;
+  height:30px;
+  padding:0 10px;
+  color:#999;
+}
+#pagination a:hover{
+  color:#000;
+}
+#pagination a.active{
+  color:#000;
+}
 
 /*
   transition
@@ -151,6 +170,8 @@ article p{
 .tran-opacity{
   -webkit-transition:opacity 0.2s ease;
 }
+
+
 
 
 
