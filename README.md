@@ -15,7 +15,7 @@ node bin/jugg.js server myBlog
 
 # TODO
 
-[DONE]1. 首页文章分页
+1. 首页文章分页 (DONE)
 
 2. 文章页前后文章
 
