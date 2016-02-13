@@ -3,6 +3,6 @@
   <a class="tran-opacity <%= curPageUrl === item.href ? 'active' : '' %>" href="<%= item.href.indexOf( 'http' ) === 0 ? item.href : site.host.rootAddress + item.href %>"><%= item.label %></a>
   <% } ) %>
   <% pages.items.forEach( function ( item ){ %>
-  <a class="tran-opacity <%= ( curPageUrl === '/pages/' + item.id + '.html' ) ? 'active' : '' %>" href="<%= site.host.rootAddress %>pages/<%= item.id %>.html"><%= item.title %></a>
+  <a class="tran-opacity <%= ( curPageUrl === 'pages/' + item.id + '.html' ) ? 'active' : '' %>" href="<%= site.host.rootAddress %>pages/<%= item.id %>.html"><%= item.title %></a>
   <% } ) %>
 </nav>
