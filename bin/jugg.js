@@ -20,7 +20,7 @@ _.each( commands, function( command, index, arr ){
 // 获取命令参数
 var args = ! ( process.argv[ 0 ] === 'node' ||
   process.argv[ 0 ] === 'nodejs' ||
-  process.argv[ 0 ].match( /node.exe$/ ) ) ? process.argv : _.last( process.argv, process.argv.length - 2 );
+  process.argv[ 0 ].match( /(node.exe|node)$/ ) ) ? process.argv : _.last( process.argv, process.argv.length - 2 );
 
 // 主方法
 var command = args[ 0 ];
