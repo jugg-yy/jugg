@@ -13,11 +13,11 @@
       %>
         <div class="article-item">
           <h1 class="article-title">
-            <a href="<%= site.host.rootAddress %>articles/<%= item.id %>.html"><%= item.title %></a>
+            <a href="<%= site.host.rootAddress %>articles/<%= item.id %>.html"><%- item.title %></a>
           </h1>
           <small class="article-author">by <%= item.author %> | <%= item.date %></small>
           <p class="article-subtitle">
-            <%= item.subtitle %>
+            <%- item.subtitle %>
           </p>
         </div>
       <% } %>

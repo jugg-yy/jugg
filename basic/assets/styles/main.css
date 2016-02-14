@@ -3,8 +3,7 @@ body{
   padding:0;
 }
 ul,li{
-  margin:0;
-  padding:0;
+
 }
 
 
@@ -12,6 +11,10 @@ ul,li{
 a{
   text-decoration: none;
   color:#000;
+}
+p a{
+  border-bottom:1px dashed;
+  color:#219FCA;
 }
 
 /*
@@ -49,6 +52,9 @@ article p{
   line-height: 50px;
   margin: 20px auto 0px;
   color:#000;
+}
+.article-title a{
+  border-bottom:1px solid;
 }
 .article-subtitle{
   font-size:16px;
