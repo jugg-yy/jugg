@@ -1,5 +1,9 @@
 # jugg
 A blog template
+===============
+
+开发
+----
 
 ```bash
 git clone https://github.com/jugg-yy/jugg.git
@@ -10,8 +14,24 @@ node bin/jugg.js create myBlog
 node bin/jugg.js build myBlog
 node bin/jugg.js server myBlog
 ```
-
 访问 http://localhost:8001/ 预览
+
+
+写博客
+-----
+
+* 在生成的 local/myBlog 下配置 *.toml 文件内容
+* 文章需要放在 local/myBlog/articles 下，使用 markdown 语法
+* 自定义页面需要放在 local/myBlog/pages 下，使用 markdown 语法
+
+
+发布到服务器
+----------
+配置 publish.exp 文件中的 dir_server 为服务器中对应目录位置。如：/usr/share/nginx/static/blog。然后执行：
+```bash
+cd jugg
+expect publish.exp [博客目录名(e.g. myBlog)] [服务器IP] [服务器登录用户名] [服务器登录密码]
+```
 
 # TODO
 

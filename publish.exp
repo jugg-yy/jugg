@@ -1,0 +1,39 @@
+#!/usr/bin/expect -f
+
+set timeout -1
+
+# 本地博客目录
+set blog [lindex $argv 0]
+
+# 服务器ip
+set ip [lindex $argv 1]
+
+# 服务器用户名
+set user [lindex $argv 2]
+
+# 服务器密码
+set pass [lindex $argv 3]
+
+# 服务器上的博客所在目录
+set dir_server /usr/share/nginx/static/blog
+
+spawn node ./bin/jugg build $blog
+
+spawn rsync -rvP build/$blog/ $user@$ip:$dir_server
+
+expect {
+	"(yes/no)?" {
+		send "yes\n"
+		expect "assword:"
+		send "$pass\n"
+	}
+	"assword:" {
+		send "$pass\n"
+	}
+	"]#" {
+		send "uname\n"
+		expect "Linux"
+	}
+}
+
+send_user  "Done!\n"
